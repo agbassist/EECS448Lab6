@@ -1,0 +1,13 @@
+BugList
+-------------------------------
+
+Adding to the front of an empty list, then calling isEmpty() returns true.
+Adding to the back of an empty list and calling isEmpty() returns true.
+Adding two elements to the back of an empty list was not successful.
+Removing from the back of <1,2,3> does not return true.
+When removing from the back of <1,2,3>, the representative vector does not have a size of 2.
+When removing from the back of <1,2,3>, the representative vector does not start with 1, or end with 2.
+When removing from the front of <1,2,3>, the return value does not equal 1.
+When removing the front entry from <1,2,3>, the size of the representative vector is not 2.
+When removing from the front entry from <1,2,3>, the representative vector does not equal <2,3>.
+Add items to list, check size. Remove 1 item. Check that the new size is less. This test failed.
